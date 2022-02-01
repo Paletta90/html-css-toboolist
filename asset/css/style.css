@@ -11,3 +11,19 @@
 .p-10{
     padding: 10px;
 }
+.check::before{
+    content: "\2713";
+    display: inline-block;
+    color: #71c6b2;
+    border: 2px solid #71c6b2;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+}
+ .f-style{
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }

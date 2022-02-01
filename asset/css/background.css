@@ -5,9 +5,14 @@
 .bg-body{
     background-color: #f6f8f9;
 }
-.bg-main{
+.bg1{
     width: 70%;
     /* height:600px; */
-    margin: 20px auto;
+    margin: 20px auto 0;
+    background-color: white;
+}
+.bg2{
+    width: 70%;
+    margin: 2px auto;
     background-color: white;
 }

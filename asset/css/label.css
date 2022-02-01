@@ -5,7 +5,12 @@
     line-height: 35px;
     vertical-align: middle;
     text-align: center;
+}
+.rounded{
     border-radius: 5px;
+}
+.circle{
+    border-radius: 18px;
 }
 .blue{
     background-color:#47adf1;
