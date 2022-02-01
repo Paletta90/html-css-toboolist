@@ -11,11 +11,16 @@ span{
 .m-y-10{
     margin: 10px 0;
 }
-.p-10{
-    padding: 10px;
+.p-10-50{
+    padding: 10px 50px;
+}
+#logo{
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
 }
 .title{
-    display: inline-block;
+    display: inline;
 }
 .x:before{
     content: "\2715";
