@@ -1,0 +1,13 @@
+.bg-header{
+    background-color: white;
+    padding-top: 10px;
+}
+.bg-body{
+    background-color: #f6f8f9;
+}
+.bg-main{
+    width: 70%;
+    /* height:600px; */
+    margin: 20px auto;
+    background-color: white;
+}

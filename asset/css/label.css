@@ -1,0 +1,16 @@
+.label{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+}
+.blue{
+    background-color:#47adf1;
+}
+.border-grey{
+    border: 1px solid lightgrey;
+    color: lightgrey;
+}
