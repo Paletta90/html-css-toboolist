@@ -4,12 +4,31 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+p,
+span{
+    line-height: 50px;
+}
 .m-y-10{
     margin: 10px 0;
 }
 .p-10{
     padding: 10px;
+}
+.title{
+    display: inline-block;
+}
+.x:before{
+    content: "\2715";
+    font-size: 15px;
+    display: inline-block;
+    color: red;
+    border: 2px solid red;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
 }
 .check::before{
     content: "\2713";
@@ -26,4 +45,7 @@
  .f-style{
      font-size: 20px;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .f-white{
+     color: white;
  }
