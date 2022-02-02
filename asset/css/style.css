@@ -4,25 +4,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-p,
-span{
-    line-height: 50px;
-}
-.m-y-10{
-    margin: 10px 0;
-}
+
 .p-10-50{
     padding: 10px 50px;
 }
 #logo{
     height: 60px;
-    line-height: 60px;
+    /* line-height: 60px; */
     vertical-align: middle;
 }
 .title{
     display: inline;
+    vertical-align: middle;
 }
-.x:before{
+.x::before{
     content: "\2715";
     font-size: 15px;
     display: inline-block;
@@ -31,7 +26,7 @@ span{
     width: 20px;
     height: 20px;
     line-height: 20px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     text-align: center;
     border-radius: 50%;
 }
@@ -43,7 +38,7 @@ span{
     width: 20px;
     height: 20px;
     line-height: 20px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     text-align: center;
     border-radius: 50%;
 }
